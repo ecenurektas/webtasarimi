@@ -1,0 +1,14 @@
+<?php
+session_start();
+    if(isset($_POST['user_name'])&&isset($_POST['user_password'])){
+        $adminName="admin";
+        $adminSifre="admin";
+        if($_POST['user_name']==$adminName&&$_POST['user_password']==$adminSifre){
+            $_SESSION["user"]=$adminName;
+            header("location:admin/admin-page.php");
+        }
+        else{
+            header("location:sign-in.php?durum=hata");
+        }
+    }
+?>

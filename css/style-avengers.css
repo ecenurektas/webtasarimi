@@ -1,0 +1,85 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+}
+p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/*
+
+Ana Resim
+
+*/
+
+.anaresim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+    height: 600px;
+    transition: 0.5s;
+}
+.anaresim>img{
+    height: 100%;
+}
+.avengers-image{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+/*
+
+Açıklama
+
+*/
+.aciklama{
+    width: 268px;
+    height: 0;
+    background-color: rgb(32, 32, 50) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.5s;
+    border-radius: 10px;
+    opacity: 0;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+}
+.seriler:hover>.aciklama{
+    height: 300px;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+.seri-ismi{
+    font-size: 17px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.content-name{
+    max-height: 40px;
+    margin-top: 8px;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+.seriaciklamasi{
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 14px;
+}

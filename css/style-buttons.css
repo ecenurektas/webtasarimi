@@ -1,0 +1,53 @@
+.oynat-butonu{
+    height: 30px;
+    width: 240px;
+    margin: 8px;
+    border-radius: 6px;
+    background-color: rgb(77, 77, 121);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oynat-butonu:hover{
+    scale: 1.01;
+    transition: 0.3s;
+    background-color: rgb(121, 121, 154);
+    color: rgb(32, 32, 50);
+}
+.icons{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+.add-watchlist{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(77, 77, 121);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+}
+.add-watchlist:hover{
+    scale: 1.03;
+    transition: 0.3s;
+    background-color: rgb(121, 121, 154);
+    color: rgb(32, 32, 50);
+}
+.hide-this{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(77, 77, 121);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hide-this:hover{
+    scale: 1.03;
+    transition: 0.3s;
+    background-color: rgb(121, 121, 154);
+    color: rgb(32, 32, 50);
+}

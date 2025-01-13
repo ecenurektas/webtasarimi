@@ -1,0 +1,128 @@
+/*
+
+Ana Resim
+
+*/
+
+.anaresim{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    overflow: visible;
+    height: 650px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.bleach-image{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.bleach-name{
+    position: absolute;
+    width: 500px;
+    left: 40px;
+    transform: translateY(-50%);
+    top: 50%;
+    height: auto;
+}
+.bleach-aciklama{
+    position: absolute;
+    left: 40px;
+    transform: translateY(-50%);
+    top: 75%;
+    color: white;
+    width: 500px;
+}
+
+/*
+
+Sezon Seçme
+
+*/
+
+#options{
+    background-color: rgb(32, 32, 50);
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    appearance: none;
+    padding: 10px;
+    padding-left: 35px;
+}
+#options:hover{
+    background-color: rgb(121, 121, 154);
+}
+.kaydet_butonu{
+    height: 30px;
+    width: 70px;
+    margin: 8px;
+    border-radius: 6px;
+    background-color: rgb(32, 32, 50);
+    color: rgb(213, 213, 223);
+    border: none;
+}
+.kaydet_butonu:hover{
+    transition: 0.3s;
+    background-color: rgb(121, 121, 154);
+    color: whitesmoke;
+}
+
+/*
+
+Seriler
+
+*/
+
+.content{
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+.seriler{
+    flex-wrap: nowrap;
+}
+.seriler:hover{
+    height: 155px;
+}
+.seriler-container{
+    height: 250px;
+}
+
+/*
+
+Açıklama
+
+*/
+.aciklama{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 155px;
+    width: 275px;
+}
+.seri-ismi{
+    margin-top: 10px;
+    font-size: 17px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 150px;
+}
+.content-name{
+    max-height: 40px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.seriaciklamasi{
+    font-size: 14px;
+    margin: 0;
+}
